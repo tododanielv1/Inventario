@@ -1,0 +1,314 @@
+[
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "codigoApp": "APP-001",
+    "nombreIniciativa": "Transformación Digital RRHH",
+    "versionActiva": "V1.2.1",
+    "metadatosGenerales": {
+      "nombreSolucion": "Gestión de Vacaciones HR",
+      "descripcion": "Portal de autoservicio para gestión de ausencias.",
+      "nivelImpacto": "Alto",
+      "estadoActual": "En Producción"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "Recursos Humanos",
+      "sponsorNegocio": "María López (VP RRHH)",
+      "desarrollador": "Daniel Vásquez",
+      "usuarioDesarrollador": "dev_dvasquez@empresa.com",
+      "jefeAreaTI": "Carlos Ruiz"
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2025-10-01 09:00:00",
+      "fechaFinDesarrollo": "2025-11-15 17:30:00",
+      "fechaInicioQA": "2025-11-16 08:00:00",
+      "fechaFinQA": "2025-11-30 15:00:00",
+      "fechaPaseProduccion": "2025-12-01 22:00:00",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "HR_Dev_Environment",
+      "entornoProduccion": "HR_Prod_Environment",
+      "powerApps": [
+        {
+          "nombre": "Solicitud_Canvas",
+          "tipo": "Canvas App"
+        }
+      ],
+      "powerAutomate": [
+        {
+          "nombre": "Flujo_Aprobacion",
+          "tipo": "Cloud Flow"
+        }
+      ],
+      "origenesDeDatos": [
+        {
+          "nombre": "Empleados_Lista",
+          "tecnologia": "SharePoint",
+          "urlOrigen": "https://empresa.sharepoint.com/..."
+        }
+      ]
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "50e3dd44-7f55-4c05-8112-7ef6ac92f0de",
+    "codigoApp": "APP-002",
+    "nombreIniciativa": "Inventario de Activos",
+    "versionActiva": "V0.1.0",
+    "metadatosGenerales": {
+      "nombreSolucion": "002_InventarioActivos",
+      "descripcion": "Permite tener un control de los activos de la orgranización",
+      "nivelImpacto": "Alto",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "TI",
+      "sponsorNegocio": "Gerente Sr. TI",
+      "desarrollador": "Daniel Vasquez",
+      "usuarioDesarrollador": "dvasquez@inteligogroup.com",
+      "jefeAreaTI": "Alfredo...."
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-06 22:36:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "Inteligo-Dev",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "2ce44854-6144-4c99-80ae-1656049502dd",
+    "codigoApp": "APP-003",
+    "nombreIniciativa": "Prueba 002",
+    "versionActiva": "",
+    "metadatosGenerales": {
+      "nombreSolucion": "",
+      "descripcion": "",
+      "nivelImpacto": "",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "",
+      "sponsorNegocio": "",
+      "desarrollador": "",
+      "usuarioDesarrollador": "",
+      "jefeAreaTI": ""
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-05 23:05:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "222f9073-a3da-4d47-99d4-6077d6cb4423",
+    "codigoApp": "APP-004",
+    "nombreIniciativa": "Prueba 003",
+    "versionActiva": "",
+    "metadatosGenerales": {
+      "nombreSolucion": "",
+      "descripcion": "",
+      "nivelImpacto": "",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "",
+      "sponsorNegocio": "",
+      "desarrollador": "",
+      "usuarioDesarrollador": "",
+      "jefeAreaTI": ""
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-05 23:13:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "34cd80e0-466e-450c-b7c1-a2f4eedf0b26",
+    "codigoApp": "APP-005",
+    "nombreIniciativa": "Prueba 005",
+    "versionActiva": "",
+    "metadatosGenerales": {
+      "nombreSolucion": "",
+      "descripcion": "",
+      "nivelImpacto": "",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "",
+      "sponsorNegocio": "",
+      "desarrollador": "",
+      "usuarioDesarrollador": "",
+      "jefeAreaTI": ""
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-05 23:21:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "4bcacc42-8a60-466b-b108-cd5f02dc33be",
+    "codigoApp": "APP-006",
+    "nombreIniciativa": "Prueba 004",
+    "versionActiva": "",
+    "metadatosGenerales": {
+      "nombreSolucion": "",
+      "descripcion": "",
+      "nivelImpacto": "",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "",
+      "sponsorNegocio": "",
+      "desarrollador": "",
+      "usuarioDesarrollador": "",
+      "jefeAreaTI": ""
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-05 23:33:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "7be5faba-bc12-4d57-840a-23a48028b130",
+    "codigoApp": "APP-007",
+    "nombreIniciativa": "Prueba 006",
+    "versionActiva": "",
+    "metadatosGenerales": {
+      "nombreSolucion": "",
+      "descripcion": "",
+      "nivelImpacto": "",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "",
+      "sponsorNegocio": "",
+      "desarrollador": "",
+      "usuarioDesarrollador": "",
+      "jefeAreaTI": ""
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-05 23:33:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  },
+  {
+    "id": "3061183a-3f09-4864-9c01-905be9a70fa3",
+    "codigoApp": "APP-008",
+    "nombreIniciativa": "Prueba 001",
+    "versionActiva": "",
+    "metadatosGenerales": {
+      "nombreSolucion": "",
+      "descripcion": "",
+      "nivelImpacto": "",
+      "estadoActual": "En Desarrollo"
+    },
+    "actoresYPatrocinio": {
+      "areaUsuaria": "",
+      "sponsorNegocio": "",
+      "desarrollador": "",
+      "usuarioDesarrollador": "",
+      "jefeAreaTI": ""
+    },
+    "cicloDeVida": {
+      "fechaInicioDesarrollo": "2026-08-05 23:58:00",
+      "fechaFinDesarrollo": "",
+      "fechaInicioQA": "",
+      "fechaFinQA": "",
+      "fechaPaseProduccion": "",
+      "fechaApagado": ""
+    },
+    "retornoInversion": [],
+    "arquitectura": {
+      "entornoDev": "",
+      "entornoProduccion": "",
+      "powerApps": [],
+      "powerAutomate": [],
+      "origenesDeDatos": []
+    },
+    "historialCambios": [],
+    "registroActividades": []
+  }
+]
