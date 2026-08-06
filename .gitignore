@@ -1,1 +1,51 @@
-Nothing should be ignored based on the provided file changes. The only modified file is `InventarioPowerPlatform.html`, which is a source file and should not be added to .gitignore.
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
